@@ -6,7 +6,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 
 - Enable Issues.
 - Enable Actions.
-- Enable Discussions when support traffic justifies it.
+- Enable Discussions for user-facing repos when you want support questions separated from Issues.
 - Keep Sponsors disabled unless there is an explicit reason to turn it on.
 
 ## Branch protection
@@ -20,7 +20,13 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 
 - Ensure `SECURITY.md` is present and correct.
 - Confirm private vulnerability reporting path is clear.
-- Enable Dependabot/security features when the dependency surface warrants it.
+- Enable vulnerability alerts and automated security fixes.
+- Keep `.github/dependabot.yml` aligned with the real package ecosystems in the repo.
+
+## Labels and intake
+
+- Apply the standard maintainer label set: `bug`, `docs`, `enhancement`, `question`, `spec`, `security`, `release-blocker`, `breaking-change`, `dependencies`, `good first issue`, `help wanted`.
+- Use Discussions for questions and design conversation, and Issues for actionable work.
 
 ## Ongoing maintenance
 

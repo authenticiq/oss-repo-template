@@ -25,6 +25,7 @@ Use this checklist before the first public push.
 - `CONTRIBUTING.md`
 - issue templates
 - weekly triage issue template
+- weekly triage automation workflow
 - PR template
 - `gitleaks.toml`
 - `.github/dependabot.yml`
@@ -36,6 +37,7 @@ Use this checklist before the first public push.
 - Replace the generic validation section in `AGENTS.md` with the real local commands.
 - Make sure those commands can be run by an agent without guesswork.
 - If generated artifacts exist, define how regeneration is checked.
+- If the repo already has `Cargo.toml`, `package.json`, `go.mod`, or similar, extend `.github/dependabot.yml` beyond GitHub Actions before the first non-scaffold release.
 
 ## 5. Launch readiness
 

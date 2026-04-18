@@ -7,6 +7,7 @@ This document defines how dependency updates, issue intake, and maintainer triag
 - Dependabot configuration lives in `.github/dependabot.yml`.
 - GitHub Actions updates are enabled by default in this template.
 - Add runtime package ecosystems to Dependabot as soon as the repo has real manifests.
+- Do not leave a release-ready repo on GitHub Actions-only Dependabot once runtime manifests exist.
 - Dependency PRs should stay small and only merge with green CI.
 - Security alerts and automated security fixes should stay enabled on GitHub.
 
@@ -32,7 +33,7 @@ Do not use Issues or Discussions for suspected vulnerabilities. Follow `SECURITY
 - Anything that looks release-blocking should be triaged the same day when practical.
 - Security-sensitive public reports should be redirected to private reporting immediately.
 - If a question is filed as an issue, redirect it to Discussions and close the issue once the handoff is clear.
-- Use the weekly triage issue template to capture the recurring maintainer review when helpful.
+- The scheduled weekly triage workflow should open the default review issue each Monday. Use the weekly triage issue template for extra passes or backfills.
 
 ## Standard Labels
 

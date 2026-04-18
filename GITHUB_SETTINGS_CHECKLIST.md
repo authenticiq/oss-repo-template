@@ -6,6 +6,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 
 - Enable Issues.
 - Enable Actions.
+- Confirm repo or org Actions policy allows the weekly triage workflow to request `issues: write`.
 - Enable Discussions for user-facing repos when you want support questions separated from Issues.
 - Keep Sponsors disabled unless there is an explicit reason to turn it on.
 - Set clear GitHub topics so the repo is discoverable and legible at a glance.
@@ -22,7 +23,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 - Ensure `SECURITY.md` is present and correct.
 - Confirm private vulnerability reporting path is clear.
 - Enable vulnerability alerts and automated security fixes.
-- Keep `.github/dependabot.yml` aligned with the real package ecosystems in the repo.
+- If the repo has `Cargo.toml`, `package.json`, `go.mod`, or similar, extend `.github/dependabot.yml` beyond GitHub Actions.
 
 ## Labels and intake
 
@@ -32,6 +33,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 
 ## Ongoing maintenance
 
+- Let the scheduled weekly triage workflow open the default review issue, and use the manual template for extra passes.
 - Review failing Actions runs weekly.
 - Review branch protection and required checks monthly.
 - Keep the repo settings aligned with the actual workflow rather than aspirational process.

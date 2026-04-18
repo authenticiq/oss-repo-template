@@ -17,6 +17,7 @@ required_files=(
   ".github/ISSUE_TEMPLATE/weekly_triage.yml"
   ".github/ISSUE_TEMPLATE/config.yml"
   ".github/workflows/ci.yml"
+  ".github/workflows/weekly-triage.yml"
 )
 
 for path in "${required_files[@]}"; do

@@ -25,6 +25,7 @@ Use this checklist before the first public push.
 - issue templates
 - PR template
 - `gitleaks.toml`
+- `.github/dependabot.yml`
 - at least one workflow
 - repo-specific `AGENTS.md`
 

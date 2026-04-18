@@ -14,6 +14,7 @@ required_files=(
   ".github/PULL_REQUEST_TEMPLATE.md"
   ".github/ISSUE_TEMPLATE/bug_report.yml"
   ".github/ISSUE_TEMPLATE/feature_request.yml"
+  ".github/ISSUE_TEMPLATE/weekly_triage.yml"
   ".github/ISSUE_TEMPLATE/config.yml"
   ".github/workflows/ci.yml"
 )

@@ -14,6 +14,7 @@ Use this checklist before the first public push.
 - Identify what must work offline.
 - Decide what examples prove the repo is real.
 - Decide what belongs in OSS and what stays internal.
+- Set repo topics that make the project legible on GitHub.
 
 ## 3. Minimum baseline
 
@@ -23,6 +24,7 @@ Use this checklist before the first public push.
 - `SECURITY.md`
 - `CONTRIBUTING.md`
 - issue templates
+- weekly triage issue template
 - PR template
 - `gitleaks.toml`
 - `.github/dependabot.yml`

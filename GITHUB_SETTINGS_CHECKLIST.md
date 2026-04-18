@@ -8,6 +8,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 - Enable Actions.
 - Enable Discussions for user-facing repos when you want support questions separated from Issues.
 - Keep Sponsors disabled unless there is an explicit reason to turn it on.
+- Set clear GitHub topics so the repo is discoverable and legible at a glance.
 
 ## Branch protection
 
@@ -26,6 +27,7 @@ These settings are not stored in git. Apply them on GitHub after repo creation.
 ## Labels and intake
 
 - Apply the standard maintainer label set: `bug`, `docs`, `enhancement`, `question`, `spec`, `security`, `release-blocker`, `breaking-change`, `dependencies`, `good first issue`, `help wanted`.
+- Add `maintenance` if you want a distinct bucket for recurring maintainer operations and weekly triage.
 - Use Discussions for questions and design conversation, and Issues for actionable work.
 
 ## Ongoing maintenance
